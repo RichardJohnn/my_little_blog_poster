@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "express": 		"3.0.6",
+    "jade": 		"*",
+    "connect-assets": 	"2.3.x",
+    "mysql" : 		"2.0.0-alpha6",
+    "async" : 		"0.1.x",
+    "browserify" : "*",
+    "sinon" : "1.5.x",
+    "chai" : "1.4.x"
+  }
+}

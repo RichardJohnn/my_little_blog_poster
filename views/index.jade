@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  form(id="myForm", method="/", action="post")
+    h2= "title"
+    textarea(id='Title', name='Title', placeholder="blog title")
+
+    h2= "body"
+    textarea(id='Body', name='Body', placeholder="enter blog post here")
+
+    button(type="submit", id="PostButton") post
+
+block scripts
+  !=js('/vendor/jquery')
+  !=js('/vendor/threejs/three.min')
+  !=js('/vendor/threejs/stats.min')
+  !=js('/vendor/bootstrap/js/bootstrap.min')
+  !=js('main')
+  
