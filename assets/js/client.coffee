@@ -3,7 +3,7 @@ $(() ->
 
   nav = $('#PostButton') 
   nav.click( () ->
-    $this = $(this)
-    alert 'whoa'
+    # $this = $(this)
+    # alert 'whoa'
   )
 )

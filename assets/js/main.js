@@ -438,11 +438,7 @@ require.define("/client.coffee",function(require,module,exports,__dirname,__file
     var nav;
     console.log("hey dawg");
     nav = $('#PostButton');
-    return nav.click(function() {
-      var $this;
-      $this = $(this);
-      return alert('whoa');
-    });
+    return nav.click(function() {});
   });
 
 }).call(this);
